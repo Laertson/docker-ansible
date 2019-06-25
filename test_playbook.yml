@@ -4,7 +4,7 @@
     headers:  "X-JFrog-Art-Api:API_KEY"
     dest: /tmp/
     mode: 0644
-	
+
 - name: Setup App
   hosts: webservers
   tasks:
